@@ -1,0 +1,42 @@
+.upcoming_containerFluid{
+    margin-top: 2rem;
+}
+.upcoming_card_courses_wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3.5rem;
+}
+.upcourse_cards{
+    height: 100%;
+    width: 20rem;
+    border-radius: 30px;
+}
+.up_card_img{
+    width: 80%;
+    height: 100%;
+}
+.up_card_body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    width: 80%;
+}
+@media (max-width: 767px) {
+    .upcoming_card_courses_wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1.2rem;
+        gap: 15px;
+    }
+    .upcourse_cards{
+     width: 90%;
+    }
+    .up_card_heading{
+        font-size: 16px;
+    }   
+}

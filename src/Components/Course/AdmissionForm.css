@@ -1,0 +1,107 @@
+.form_main_container{
+    background-color: #3C427B;
+ padding: 20px;
+ border-radius: 30px;
+ width: 100%;
+ color: #fff;
+ padding: 3rem 3rem;
+}
+.admissionform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: #fff;
+ }
+.form_group{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: #fff;
+}
+.form_fields{
+    width: 290px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #F2F2F2;
+    /* mix-blend-mode: lighten;
+    opacity: 0.52; 
+    color: #fff !important; */
+}
+
+.form_wrapper1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+.form_wrapper2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+.form_btn_div{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+margin-left: auto;
+margin-right: -45px;
+}
+.course_from_btn{
+    background-color: #FF2180;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    margin-left: auto;
+}
+@media (max-width: 767px) {
+    .form_main_container{
+     padding: 20px;
+     width: 90vw;
+    padding: 3rem 3rem;
+    }
+    .admissionform{
+gap: 2px;
+    }
+    .add_labels{
+        font-size: 12px;
+    }
+    .form_fields{
+    width: 70vw;
+     height: 45px;
+     font-size: 12px;
+    }
+    .form_wrapper1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2px;
+    }
+    .form_wrapper2{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2px;
+    }
+    .form_btn_div{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    margin-left: auto;
+    margin-right: -45px;
+    }
+    .course_from_btn{
+        font-size: 14px;
+        font-weight: 500;
+ padding: 7px 9px;
+ margin-right: 38px;
+      
+    }
+}

@@ -19,9 +19,10 @@ function App() {
     <div className='App'>
 
   <Router>
-   <Navbar/>
+   
+   {/* <Navbar/>
    <Routes>
-  <Route path="*" element={<Home />} />
+  <Route path= "*" element={<Home />} />
    <Route path="/about" element={<About />} />
    <Route path="/course" element={<Course />} />
   <Route path="/JEE" element={<JEE />} />
@@ -29,7 +30,7 @@ function App() {
   <Route path="/Smart" element={<Smart />} />
  <Route path="/Contact" element={<Contact />} />
 </Routes>
-<Footer/>
+<Footer/> */}
       </Router>
       </div>
   );
